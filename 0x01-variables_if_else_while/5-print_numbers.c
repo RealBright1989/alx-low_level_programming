@@ -1,19 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - A program that prints all single digit numbers
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int n;
+int i;
 
-	for (n = 0 ; n < 10 ; n++)
-	{
-		printf("%d", n);
-	}
-	putchar('\n');
-	return (0);
+for (i = 0; i < 10; i++)
+putchar(i + '0');
+putchar('\n');
+return (0);
 }
