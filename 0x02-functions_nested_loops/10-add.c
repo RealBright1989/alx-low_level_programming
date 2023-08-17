@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * add function that runs two umnbers
+ * add -adds two integers
  * @a: first parameter
- * @b: second parameter
- * Return: a + b
+ * @b: econd parameter
+ *
+ * Return: sum
  */
-
 int add(int a, int b)
 {
-	return (a + b);
+	int sum;
+	sum = a + b;
+	return (sum);
 }
