@@ -2,8 +2,8 @@
 
 /**
  * add function that runs two umnbers
- * @a: parameter 1
- * @b: parameter 2
+ * @a: first parameter
+ * @b: second parameter
  * Return: a + b
  */
 
