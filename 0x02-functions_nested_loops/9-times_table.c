@@ -22,7 +22,6 @@ void punct(int row, int col)
                         _putchar(32);
         }
 }
-
 /**
  * times_table - prints the 9 times table, starting with 0.
  *
